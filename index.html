@@ -382,9 +382,23 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-box">
+                <p class="subscribe-par">Subscribe</p>
+                <form class="footer-form">
+                    <label class="footer-label">
+                        <input class="subscribe-email" name="subscribe-email" type="email" placeholder="E-mail" />
+                    </label>
+                    <button class="subscribe-button" type="submit">
+                        Subscribe
+                        <svg class="subscibe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button class="modal-close-btn" type="button">
                 <svg class="close-icon" width="8" height="8">
@@ -425,11 +439,12 @@
                     <textarea name="user-comment" id="user-comment" class="input-comment" rows="6" placeholder="Text input"></textarea>
                 </div>
                 <div class="last-form-element">
-                    <input type="checkbox" class="input-checkbox visually-hidden" id="user-privacy" name="user-privacy">
+                    <input type="checkbox" class="input-checkbox visually-hidden" id="user-privacy" name="user-privacy" value="true">
                     <label class="last-input-label" for="user-privacy"><span class="privacy-span"><svg width="10" height="8">
                                 <use href="./images/icons.svg#icon-checkbox"></use>
-                            </svg></span></label>
+                            </svg></span>I accept the terms and conditions of the <a href="" class="checkbox-link">Privacy Policy</a></label>
                 </div>
+                <button class="send-button" type="submit">Send</button>
             </form>
         </div>
     </div>
