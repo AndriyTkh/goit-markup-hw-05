@@ -545,6 +545,9 @@ h2,h3{
 .form-element{
     margin-bottom: 8px;
 }
+.comment-form-element{
+    margin-bottom: 16px;
+}
 .input-field{
     display: flex;
     width: 360px;
@@ -621,7 +624,7 @@ h2,h3{
 /*$ Checkbox $*/
 
 .last-form-element {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .last-input-label{
     font-size: 12px;
